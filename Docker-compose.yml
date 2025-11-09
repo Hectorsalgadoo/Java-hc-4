@@ -1,0 +1,12 @@
+services:
+  quarkus-app:
+    build: .
+    container_name: quarkus-tarefas
+    ports:
+      - "8080:8080"
+    environment:
+      - QUARKUS_DATASOURCE_DB_KIND=oracle
+      - QUARKUS_DATASOURCE_USERNAME=rm565771
+      - QUARKUS_DATASOURCE_PASSWORD=031204
+      - QUARKUS_DATASOURCE_JDBC_URL=jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl
+      - QUARKUS_HTTP_PORT=8080

@@ -15,6 +15,7 @@ C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\models\P
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\resource\ConsultaResource.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\resource\PacienteResource.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\resource\ProfissionalResource.java
+C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\security\AuthResource.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\security\PasswordHash.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\service\ConsultaService.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\service\PacienteService.java

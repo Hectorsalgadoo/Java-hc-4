@@ -192,7 +192,6 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="listar()">
 <h3>listar</h3>
 <div class="member-signature"><span class="annotations">@GET
-@RolesAllowed({"USER","ADMIN"})
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">jakarta.ws.rs.core.Response</span>&nbsp;<span class="element-name">listar</span>()</div>
 <div class="block">Lista todos os pacientes.</div>
 <dl class="notes">
@@ -206,7 +205,7 @@ loadScripts(document, 'script');</script>
 <h3>buscarPorId</h3>
 <div class="member-signature"><span class="annotations">@GET
 @Path("/{id}")
-@RolesAllowed("ADMIN")
+
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">jakarta.ws.rs.core.Response</span>&nbsp;<span class="element-name">buscarPorId</span><wbr><span class="parameters">(@PathParam("id")
  int&nbsp;id)</span></div>
 <div class="block">Busca um paciente pelo ID.</div>
@@ -223,7 +222,7 @@ loadScripts(document, 'script');</script>
 <h3>buscarPorCpf</h3>
 <div class="member-signature"><span class="annotations">@GET
 @Path("/cpf/{cpf}")
-@RolesAllowed({"USER","ADMIN"})
+
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">jakarta.ws.rs.core.Response</span>&nbsp;<span class="element-name">buscarPorCpf</span><wbr><span class="parameters">(@PathParam("cpf")
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;cpf)</span></div>
 <div class="block">Busca um paciente pelo CPF.</div>
@@ -239,7 +238,7 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="cadastrar(br.com.fiap.dto.PacienteRequestDto,jakarta.ws.rs.core.UriInfo)">
 <h3>cadastrar</h3>
 <div class="member-signature"><span class="annotations">@POST
-@RolesAllowed("ADMIN")
+
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">jakarta.ws.rs.core.Response</span>&nbsp;<span class="element-name">cadastrar</span><wbr><span class="parameters">(<a href="../dto/PacienteRequestDto.html" title="class in br.com.fiap.dto">PacienteRequestDto</a>&nbsp;pacienteDto,
  @Context
  jakarta.ws.rs.core.UriInfo&nbsp;uriInfo)</span></div>
@@ -258,7 +257,7 @@ loadScripts(document, 'script');</script>
 <h3>atualizar</h3>
 <div class="member-signature"><span class="annotations">@PUT
 @Path("/{id}")
-@RolesAllowed("ADMIN")
+
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">jakarta.ws.rs.core.Response</span>&nbsp;<span class="element-name">atualizar</span><wbr><span class="parameters">(@PathParam("id")
  int&nbsp;id,
  <a href="../dto/PacienteRequestDto.html" title="class in br.com.fiap.dto">PacienteRequestDto</a>&nbsp;pacienteDto)</span></div>
@@ -277,7 +276,7 @@ loadScripts(document, 'script');</script>
 <h3>excluir</h3>
 <div class="member-signature"><span class="annotations">@DELETE
 @Path("/{id}")
-@RolesAllowed("ADMIN")
+
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">jakarta.ws.rs.core.Response</span>&nbsp;<span class="element-name">excluir</span><wbr><span class="parameters">(@PathParam("id")
  int&nbsp;id)</span></div>
 <div class="block">Exclui um paciente pelo ID.</div>

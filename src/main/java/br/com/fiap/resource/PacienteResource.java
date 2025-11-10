@@ -116,7 +116,6 @@ public class PacienteResource {
      * @return Response com o paciente cadastrado e status 201 Created,
      */
     @POST
-    @RolesAllowed("ADMIN")
     public Response cadastrar(PacienteRequestDto pacienteDto, @Context UriInfo uriInfo) {
         try {
             if (pacienteDto == null) {
@@ -226,7 +225,7 @@ public class PacienteResource {
      */
     @DELETE
     @Path("/{id}")
-    @RolesAllowed("ADMIN")
+    @RolesAllowed("USER")
     public Response excluir(@PathParam("id") int id) {
         try {
             if (id <= 0) {

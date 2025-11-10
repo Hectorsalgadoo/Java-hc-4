@@ -14,7 +14,7 @@ import java.util.List;
  * Fornece endpoints para CRUD (Create, Read, Update, Delete) de pacientes.
  * Todas as respostas são no formato JSON.
  */
-@Path("/pacientevelho")
+@Path("/paciente")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class PacienteResource {

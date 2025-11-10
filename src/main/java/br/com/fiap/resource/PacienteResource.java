@@ -29,7 +29,6 @@ public class PacienteResource {
      * @return Response com a lista de pacientes e status 200 OK,
      */
     @GET
-    @RolesAllowed({"USER", "ADMIN"})
     public Response listar() {
         try {
             List<PacienteResponseDto> pacientes = pacienteService.listar();
@@ -50,7 +49,6 @@ public class PacienteResource {
      */
     @GET
     @Path("/{id}")
-    @RolesAllowed("ADMIN")
     public Response buscarPorId(@PathParam("id") int id) {
         try {
             if (id <= 0) {
@@ -82,7 +80,6 @@ public class PacienteResource {
      */
     @GET
     @Path("/cpf/{cpf}")
-    @RolesAllowed({"USER", "ADMIN"})
     public Response buscarPorCpf(@PathParam("cpf") String cpf) {
         try {
             if (cpf == null || !cpf.matches("\\d{11}")) {
@@ -168,7 +165,6 @@ public class PacienteResource {
      */
     @PUT
     @Path("/{id}")
-    @RolesAllowed("ADMIN")
     public Response atualizar(@PathParam("id") int id, PacienteRequestDto pacienteDto) {
         try {
             if (id <= 0) {
@@ -225,7 +221,6 @@ public class PacienteResource {
      */
     @DELETE
     @Path("/{id}")
-    @RolesAllowed("USER")
     public Response excluir(@PathParam("id") int id) {
         try {
             if (id <= 0) {

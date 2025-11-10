@@ -3,6 +3,7 @@ package br.com.fiap.resource;
 import br.com.fiap.dto.ProfissionalRequestDto;
 import br.com.fiap.dto.ProfissionalResponseDto;
 import br.com.fiap.service.ProfissionalService;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
@@ -18,6 +19,7 @@ import java.util.List;
 @Path("/profissionais")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+@ApplicationScoped
 public class ProfissionalResource {
 
     @Inject

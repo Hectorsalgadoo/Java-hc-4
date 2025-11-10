@@ -4,6 +4,7 @@ import br.com.fiap.dto.ConsultaRequestDto;
 import br.com.fiap.dto.ConsultaResponseDto;
 import br.com.fiap.models.Consulta;
 import br.com.fiap.service.ConsultaService;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
@@ -22,6 +23,7 @@ import java.util.List;
 @Path("/consultas")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+@ApplicationScoped
 public class ConsultaResource {
 
     @Inject

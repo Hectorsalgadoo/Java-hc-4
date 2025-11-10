@@ -1,9 +1,10 @@
-br\com\fiap\dto\PacienteRequestDto.class
 br\com\fiap\dto\PacienteResponseDto.class
 br\com\fiap\resource\PacienteResource.class
 br\com\fiap\enums\TipoAtendiEnum.class
+br\com\fiap\security\PasswordHash.class
+br\com\fiap\dto\PacienteRequestDto.class
+br\com\fiap\security\CorsFilter.class
 br\com\fiap\GreetingResource.class
 br\com\fiap\dao\PacienteDao.class
-br\com\fiap\security\PasswordHash.class
 br\com\fiap\models\Paciente.class
 br\com\fiap\service\PacienteService.class

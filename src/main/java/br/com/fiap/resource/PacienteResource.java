@@ -3,6 +3,7 @@ package br.com.fiap.resource;
 import br.com.fiap.dto.PacienteRequestDto;
 import br.com.fiap.dto.PacienteResponseDto;
 import br.com.fiap.service.PacienteService;
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
@@ -17,6 +18,7 @@ import java.util.List;
 @Path("/paciente")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+@ApplicationScoped
 public class PacienteResource {
 
     @Inject

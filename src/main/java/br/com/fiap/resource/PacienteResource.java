@@ -3,7 +3,6 @@ package br.com.fiap.resource;
 import br.com.fiap.dto.PacienteRequestDto;
 import br.com.fiap.dto.PacienteResponseDto;
 import br.com.fiap.service.PacienteService;
-import jakarta.annotation.security.RolesAllowed;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;

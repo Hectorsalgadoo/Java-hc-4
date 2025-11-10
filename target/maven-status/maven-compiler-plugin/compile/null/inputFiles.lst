@@ -8,14 +8,12 @@ C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\dto\Paci
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\dto\ProfissionalRequestDto.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\dto\ProfissionalResponseDto.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\enums\TipoAtendiEnum.java
-C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\filters\CorsFilter.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\GreetingResource.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\models\Consulta.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\models\Paciente.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\models\Profissional.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\resource\ConsultaResource.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\resource\PacienteResource.java
-C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\resource\PacieResource.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\resource\ProfissionalResource.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\security\CorsFilter.java
 C:\Users\hector\Downloads\java-hc-4\java-hc-4\src\main\java\br\com\fiap\security\PasswordHash.java
